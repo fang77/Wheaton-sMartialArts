@@ -1,0 +1,66 @@
+.join-the-fam-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../navbar/red-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10em;
+    background-position: 50% 50%;
+}
+
+.join-overlay {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    background-color: rgba(0,0,0,0.9)
+}
+
+.join-overlay h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px !important;
+    font-weight: 450;
+    color: white !important;
+    letter-spacing: 1px;
+    margin-top: 4em;
+}
+.join-overlay p{
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 10px;
+    margin-bottom: 3em;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    text-align: justify;
+}
+
+.send button {
+    border: none;
+    background-color: white;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    height: 40px;
+    width: 140px;
+    margin: 2em;
+    letter-spacing: 1px;
+}
+
+.send {
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}

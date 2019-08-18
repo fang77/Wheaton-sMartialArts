@@ -1,0 +1,30 @@
+.events-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: url(../../components/assets/tkdbackground2.jpg) no-repeat center;
+    background-size: cover;
+    padding-bottom: 2em;
+    margin-bottom: -10em;
+}
+
+.events-container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 450;
+    letter-spacing: 1px;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    color: black;
+}
+
+@media (max-width: 820px) {
+    .events-container iframe{
+        width: 90%;
+        height: 1600 !important;
+    }
+}

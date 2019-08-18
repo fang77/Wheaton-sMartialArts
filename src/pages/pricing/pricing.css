@@ -1,0 +1,376 @@
+.option-panel {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-panel h1 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+
+.option-panel #NavLinked {
+    text-decoration: none !important;
+    color: #ad974f;
+    font-weight: 600;
+}
+
+.option-panel p {
+    font-size: 12px;
+    color: black;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1px;
+}
+
+.trial {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    color: maroon !important;
+    background: none !important;
+    padding-bottom: 0 !important;
+}
+
+.promo p {
+    font-weight: 400!important;
+    margin-bottom: 4em !important;
+    font-size: 14px !important;
+}
+
+.package-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.package-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    letter-spacing: 2px;
+    color: white;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    width: 100%;
+    background-color: rgb(158,54,58,1);
+}
+
+.package-sort {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-word {
+    width: 60%;
+}
+
+@media(max-width: 1024px) {
+    .change-panel {
+        width: 80% !important;
+    }
+}
+
+@media(max-width: 768px) {
+    .change-panel {
+        width: 100% !important;
+    }
+}
+@media(max-width: 430px) {
+    .top-word {
+        width: 80%;
+    }
+
+    .promo{
+        width: 80% !important;
+    }
+
+    .separator {
+        width: 300px !important;
+    }
+}
+
+.promo {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -1em;
+    margin-bottom: 10em;
+    z-index: 20 !important;
+}
+
+.back {
+    background: url('../../components/assets/brush.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 200px !important;
+    opacity: 0.1;
+    z-index: 19 !important;
+}
+
+.promo h2{
+    margin-top: 2em;
+    font-size: 16px !important;
+    letter-spacing: 2px;
+    color: rgba(80,50,20,0.7) !important;
+}
+.promo p {
+    font-size: 12px !important;
+    font-family: 'Merriweather', sans-serif;
+    color: black;
+    margin: 2em;
+    margin-top: 1em;
+}
+
+.package-sort{
+    display: flex;
+    align-items: flex-start;
+}
+.package-panel {
+    height: auto !important;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: none;
+    border: 2px solid lightgrey;
+    margin: 0.4em;
+    margin-bottom: 2em;
+    border-top: none;
+}
+
+.package-panel ul{
+    list-style: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.package-panel h2 {
+    font-size: 10px !important;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.change-panel h2 {
+    font-size: 16px;
+    font-weight: 450 !important;
+    letter-spacing: 2px;
+    color: white;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.basic {
+    background-color:  rgba(80,50,20,0.7)!important;
+}
+.standard {
+    background-color: rgba(108,122,134,1) !important;
+}
+
+.premier {
+    background-color: #ad974f !important;
+}
+
+.little-kid {
+    background-color: black;
+}
+
+
+.package-panel ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    width: 100% !important;
+    padding-top: 1em;
+    padding-bottom:  1em;
+    letter-spacing: 1px;
+}
+
+.package-panel ul li b{
+    font-weight: 450;
+}
+
+.change-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    height: auto !important;
+
+}
+
+.option {
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: lightgrey;
+    box-shadow: 3px 5px 3px rgba(0,0,0,0.7);
+    border: 1px solid black;
+    margin: 1em;
+}
+
+.option h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: black;
+    margin-top: 2em;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    font-weight: 450;
+    font-size: 24px;
+    color: #272727;
+    opacity: 0.6;
+    width: 100%;
+    margin-top: 1em;
+}
+
+h3 b {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: black;
+}
+
+.separator {
+    height: 100px;
+    width: 400px;
+    background-image: url(../../icons/png-divider-lines-tiny-edge-line-decorative-divider-png-512.png);
+    background-repeat: no-repeat;
+    background-size: contain !important;
+    margin-bottom: 2em;
+    margin-top: 3em;
+    padding: 0;
+}
+
+.bot-offer{
+    margin-top: 4em !important;
+    font-weight: 450;
+}
+
+.option-panel button {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    margin-top: 4em;
+}
+.option-panel button #NavLinked {
+    color: white;
+    width: 200px !important;
+    height: 50px;
+}
+
+.option-panel button a {
+    padding: 60px;
+}
+
+.payment-container {
+    height: auto;
+    width: 80% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-container p {
+    width: 100% !important;
+    height: auto;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-bottom: 3em;
+    color: black;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.qb-logo {
+    background: url(../../icons/qb-logo.png);
+    width: 300px;
+    height: 200px;
+    background-repeat: none;
+    background-size: cover;
+    margin-bottom: 4em;
+}
+.line {
+    height: 2px;
+    margin: 2em;
+    width: 100%;
+    background-color: black;
+    border: none;
+}
+.logo-holder {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logo-holder a{
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 2em;
+}
+
+.ppl-logo {
+    background: url(../../icons/paypal.png);
+}
+
+.visa-logo {
+    background: url(../../icons/visa.png);
+    background-position: 50% 50%;
+}
+
+.cash-logo {
+    background: url(../../icons/cash.png);
+    background-position: 50% 50%;
+}
+

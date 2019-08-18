@@ -1,0 +1,171 @@
+.classes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.classes-container p{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    width: 75%;
+}
+
+
+.classes-container h1 {
+    color: white!important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 32px;
+}
+
+.class-paralax-1 {
+    background: url(../../components/assets/muay-thai.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: 0px -200px!important;
+    height: 300px;
+    width: 100% !important;
+    background-attachment: fixed !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class-paralax-2 {
+    background: url(../../components/assets/badass.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: 0px 0px!important;
+    height: 300px;
+    width: 100% !important;
+    background-attachment: fixed !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class-paralax-3 {
+    background: url(../../components/assets/fight-team.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: 0px 50%!important;
+    height: 300px;
+    width: 100% !important;
+    background-attachment: fixed !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class-paralax-4 {
+    background: url(../../components/assets/mamamia.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: 50% 0px!important;
+    height: 300px;
+    width: 100% !important;
+    background-attachment: fixed !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-transition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.payment-transition p {
+    color: #ad974f;
+    margin-bottom: 2em;
+}
+
+.classes-container b {
+    font-weight: 400;
+    color: #ad974f;
+}
+
+.pay-now {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    border: none;
+}
+
+#NavsLinked {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-decoration: none !important;
+    padding: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.sample-pic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    justify-content: center;;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.sample-pic div {
+    width: 250px !important;
+    height: 250px !important;
+    margin: 1em;
+}
+
+.mkb-pic1 {
+    background: url(../../components/assets/kickboxing.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.mkb-pic2 {
+    background: url(../../components/assets/mt-2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.mkb-pic3 {
+    background: url(../../components/assets/rules1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.mkb-pic4 {
+    background: url(../../components/assets/mt-3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.ft-1 {
+    background: url(../../components/assets/fight-team2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.ft-2 {
+    background: url(../../components/assets/ft-4.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.ft-3 {
+    background: url(../../components/assets/ft-3.jpg) no-repeat center;
+    background-size: cover;
+    background-position: 90%;
+}
+
+.ft-4 {
+    background: url(../../components/assets/ft-6.jpg) no-repeat center;
+    background-size: cover;
+}

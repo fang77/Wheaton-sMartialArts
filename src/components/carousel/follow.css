@@ -1,0 +1,118 @@
+.social-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.follow {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow h2, h1 {
+    color: black !important;
+}
+
+.follow h2 {
+    font-size: 12px;
+    font-weight: 450;
+    letter-spacing: 2px;
+    margin-top: 10em;
+}
+
+.follow h1 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5em;
+}
+
+.carousel-container {
+    width: 100%;
+    height: 300px;
+    position: sticky;
+
+}
+
+.carousel {
+    width: 2400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: 300ms cubic-bezier(0.455,0.03,0.515,0.955);
+    transition: 0.3s linear;
+}
+.overlay-button {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    left:0;
+    background: none;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous {
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px;
+    cursor: pointer;
+    line-height: 60px;
+    font-size: 60px;
+    color: #FFF;
+    opacity: 0.8;
+}
+
+.next {
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px;
+    cursor: pointer;
+    line-height: 60px;
+    font-size: 60px;
+    color: #FFF;
+    opacity: 0.8;
+}
+
+.filler-button {
+    width: 80%;
+    background: transparent;
+}
+
+.social-container button {
+    width: 300px;
+    height: 50px;
+    background: black;
+    border: none;
+    margin-top: 10em;
+}
+
+.social-container button a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 450;
+    font-size: 12px;
+}

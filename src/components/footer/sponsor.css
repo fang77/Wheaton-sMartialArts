@@ -1,0 +1,106 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.bottom-panel, .bottom-stretched {
+    width: 300px;
+    letter-spacing: 1px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-stretched h2 {
+    font-size: 16px;
+    font-weight: 450;
+    letter-spacing: 1px;
+    margin-top: 5em;
+    color: black;
+}
+
+.bottom-panel h2 {
+    font-size: 16px;
+    font-weight: 450;
+    letter-spacing: 1px;
+    margin-top: 5em;
+    color: black;
+}
+
+.bottom-panel a {
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 12px !important;
+    color: black;
+}
+
+.footer-container p {
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 12px;
+    color: black;
+}
+
+.bottom-stretched input {
+    border: 1px solid black;
+    width: 260px;
+    height: 30px;
+    margin-top: 1em;
+}
+
+.bottom-stretched button {
+    height: 40px;
+    width: 160px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 450;
+    background: black;
+    border: none;
+    color: white;
+    margin-top: 2em;
+}
+
+.bottom-stretched input{
+    color: black;
+}
+
+.logo-1 {
+    background: url(./logo-foot/ttr-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    margin-top: -2em;
+}
+
+.logo-2 {
+    background: url(./logo-foot/wma-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    margin-top: 1em;
+}
+
+.logo-3 {
+    background: url(./logo-foot/my-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    background-position-x: 33%;
+    margin-top: -1em;
+}
+
+.right {
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}

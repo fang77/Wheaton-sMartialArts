@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  float: bottom;
+  overflow: auto;
+}
+
+body {
+  overflow: auto;
+  float: bottom;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.background-enter {
+  transform: translate(100%);
+  opacity: 0;
+}
+.background-enter.background-enter-active {
+  transform: translate(0%);
+  transition: transform 500ms ease-in-out;
+  opacity: 1;
+}
+.background-leave {
+  transform: translate(0%);
+  opacity: 1;
+}
+.background-leave.background-leave-active {
+  transform: translate(-100%);
+  transition: transform 500ms ease-in-out;
+  opacity: 0;
+}

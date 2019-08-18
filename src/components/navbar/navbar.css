@@ -1,0 +1,235 @@
+.translucent {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(26,26,26,1)!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 12;
+    transition: 1s;
+    position: relative;
+}
+
+.translucent-scrolled {
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 12;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.logo-container{
+    height: 120px;
+    width: 120px;
+    background: url('./wma-logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.translucent ul{
+    list-style: none;
+}
+
+.translucent-scrolled ul {
+    list-style: none;
+}
+
+.translucent ul li #NavLink{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montsserat', sans-serif;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    width: 100% !important;
+    height: 100%;
+}
+
+.translucent ul li #NavLink:hover{
+    color: red;
+}
+
+.translucent ul li {
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+
+.translucent ul {
+    display: flex;
+    flex-direction: row;
+    line-height: 120px;
+    margin: 0;
+    padding: 0;
+}
+/* translucent scrolled */
+.translucent-scrolled ul li #NavLink{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montsserat', sans-serif;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    width: 100% !important;
+    height: 100%;
+}
+
+.translucent-scrolled ul li #NavLink:hover{
+    color: red;
+}
+
+.translucent-scrolled ul li {
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+
+.translucent-scrolled ul {
+    display: flex;
+    flex-direction: row;
+    line-height: 120px;
+    margin: 0;
+    padding: 0;
+}
+
+.hamburger, .filler-other{
+    font-family: fontAwesome;
+    width: 100px;
+    height: 60px;
+    background-color: none;
+    margin: 0;
+    display: none;
+    text-align: center;
+    line-height: 60px;
+}
+
+.hamburger i{
+    font-size: 28px;
+    color: lightgrey;
+    display: inline-block !important;
+}
+
+.hamburger i:hover {
+    color: maroon;
+    transition: linear 0.1s;
+}
+
+
+/*Menu side goes here*/
+
+.menu, .menu-active {
+    width: 370px;
+    height: 100%;
+    position: fixed;
+    left: -375px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background:rgba(20,20,20,0.99);
+    transition: 0.6s ease-in;
+    z-index: 20;
+    opacity: 1;
+}
+
+
+.menu-active {
+    left: 0;
+    transition: 0.6s ease-in;
+}
+
+.menu-active #NavLink {
+    text-decoration: none !important;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 10px;
+    height: 20px;
+    width: 90%;
+    transition:0.2s linear;
+    margin-top: 1em;
+}
+
+.menu-active #NavLink:hover{
+    color: red;
+}
+
+.menu-active i {
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    margin-right: 230px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    z-index: 21;
+}
+
+.menu-active i:hover {
+    color: maroon;
+}
+
+.menu #NavLink {
+    text-decoration: none !important;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+    height: 20px;
+    width: 90%;
+    transition:0.2s linear;
+}
+
+.menu i {
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    margin-right: 230px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    z-index: 21;
+}
+
+.menu #NavLink {
+    text-decoration: none !important;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+    height: 20px;
+    width: 90%;
+    transition:0.2s linear;
+}
+
+.menu-line{
+    width: 70%;
+    height: 1em;
+    border-top: 1px solid lightgray;
+    margin-top: 1.3em;
+}
+
+
+/*Responsive for Mobile*/
+
+@media (max-width:780px) {
+    .translucent ul {
+        display: none;
+    }
+
+    .translucent-scrolled ul{
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .filler-other {
+        display: block;
+    }
+}
+

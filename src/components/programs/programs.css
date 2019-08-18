@@ -1,0 +1,133 @@
+.overlay-invisible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 250px;
+    height: 250px;
+    color: white;
+    position: absolute;
+    z-index: 5;
+    font-size: 0;
+    transition: 0.2s linear;
+    font-weight:300;
+    letter-spacing: 1px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.overlay-invisible p {
+    width: 80%;
+}
+.overlay-invisible:hover {
+    font-size: 0.7em;
+    background: black;
+    opacity: 0.83;
+    width: 250px;
+}
+
+.programs {
+    width: 100%;
+    height: auto;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-program {
+    font-weight: 450;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: black !important;
+    margin-bottom: 3em;
+    margin-top: 6em;
+}
+.programs-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 700px) and (max-width: 1370px){
+    .programs-container{
+        width: 800px !important;
+    }
+}
+
+.programs #NavLink {
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.program-panel{
+    width: 250px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.program-panel h2 {
+    color: black;
+    font-size: 0.9em;
+    font-weight: 450;
+    letter-spacing: 1px;
+    background: transparent;
+    margin-top: 1em;
+}
+
+.muay{
+    width: 250px;
+    height: 250px;
+    background: url(../assets/muay-thai.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kick{
+    width: 250px;
+    height: 250px;
+    background: url(../assets/kickboxing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.little{
+    width: 250px;
+    height: 250px;
+    background: url(../assets/mamamia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -50px 0px;
+}
+
+.tae{
+    width: 250px;
+    height: 250px;
+    background: url(../assets/taekwondo.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.info-button {
+    width: 260px;
+    height: 50px;
+    background: black;
+    color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+

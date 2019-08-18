@@ -1,0 +1,17 @@
+.card {
+    height: 300px;
+    width: 300px;
+    margin: 0.5em;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    background-size: cover!important;
+}
+
+@media(max-width: 420px) {
+    .card {
+        margin-left: 1.9em !important;
+    }
+}

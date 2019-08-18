@@ -1,0 +1,125 @@
+.matching-translucent{
+    height: 100%;
+    background-color: #272727;
+    opacity: 0.8;
+
+}
+
+.fill-transparent {
+    width: 100%;
+    height: 3em!important;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.info-tab {
+    margin: 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.bold {
+    font-size: 36px !important;
+    font-weight: 600;
+}
+
+.thin {
+    font-size: 36px !important;
+    font-weight: 400;
+}
+
+.action {
+    margin-bottom: 4em;
+}
+
+@media (min-width:786px) {
+    .bold {
+        font-size: 64px !important;
+    }
+    .thin {
+        font-size: 64px !important;
+        font-weight: 300 !important;
+    }
+    .action {
+        margin-top: 5em;
+        margin-bottom: 9em;
+    }
+    .payment {
+        margin-bottom: 0 !important;
+    }
+    .info {
+        margin-bottom: 0 !important;
+    }
+}
+
+.payment {
+    width: 200px;
+    height: 40px;
+    background-color: #272727;
+    font-size: 12px !important;
+    font-weight: 450;
+    color: white;
+    border: 1px solid white;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    letter-spacing: 1px;
+}
+
+.payment:hover {
+    background-color: black;
+    border: none;
+}
+
+.payment #NavLink {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.location{
+    background: url('../../icons/location.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2.2em;
+    height: 2.2em;
+    padding: 0;
+    margin: 1em;
+}
+
+.phone {
+    background: url('../../icons/phone.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2.2em;
+    height: 2.2em;
+    padding: 0;
+    margin: 1em;
+    margin-bottom: 1.5em;
+}
+
+
+@media(min-width: 430px) {
+    .info {
+        display: none;
+    }
+
+    .button-margin {
+        margin-top: 1em;
+        margin-bottom: 6em;
+        display: none;
+    }
+}
+
+@media (max-width: 430px) {
+    .action {
+        margin-bottom: 0em !important;
+    }
+}
