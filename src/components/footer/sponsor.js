@@ -44,7 +44,7 @@ class Foot extends Component {
                         <a href='https://www.instagram.com/tkd206/' target="_blank" rel="noopener noreferrer">
                            Instagram 
                         </a>
-                        <a>Yelp</a>
+                        <a href='https://www.yelp.com/biz/wheatons-martial-arts-academy-renton?osq=wheatons+martial+arts+academy' target="_blank" rel="noopener noreferrer">Yelp</a>
                     </div>
                 </div>
 

@@ -47,7 +47,7 @@ class Diag extends Component {
                     </li>
 
                     <li>
-                        <a href='#'>
+                        <a href='https://www.yelp.com/biz/wheatons-martial-arts-academy-renton?osq=wheatons+martial+arts+academy' target="_blank" rel="noopener noreferrer">
                             <i class="fa fa-yelp" aria-hidden="true"></i>
                         </a>
                     </li>
