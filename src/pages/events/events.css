@@ -28,3 +28,13 @@
         height: 1600 !important;
     }
 }
+
+@media(max-width: 420px) {
+    .events-container iframe {
+        width: 100%;
+    }
+}
+
+.calander {
+    border: 1px solid black;
+}

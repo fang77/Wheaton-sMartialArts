@@ -10,7 +10,7 @@ class trailer extends Component{
                 <div className="overlay-video">
                     <h2>FIGHT TEAM</h2>
                 </div>
-                <video className="trailer" autoPlay loop muted>
+                <video className="trailer" playsinline autoPlay loop muted>
                     <source src={sample} type="video/mp4" />
                 </video>
             </section>
