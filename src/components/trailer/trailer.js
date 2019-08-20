@@ -12,8 +12,8 @@ class trailer extends Component{
                     <h2>FIGHT TEAM</h2>
                 </div>
                 <video className="trailer" playsinline autoPlay loop muted>
-                    <source src={sample} type="video/mp4" />
-                    <source src={sampleweb} type="video/webm" />
+                    <source className="video-display" src={sample} type="video/mp4" />
+                    <source className="video-mobile" src={sampleweb} type="video/webm" />
                 </video>
             </section>
         );

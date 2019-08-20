@@ -6,7 +6,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    z-index: 200;
+    z-index: 600 !important;
     transition: 1s;
     position: relative;
 }
@@ -20,7 +20,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    z-index: 200;
+    z-index: 600 !important;
     overflow: hidden;
     transition: 1s;
 }
