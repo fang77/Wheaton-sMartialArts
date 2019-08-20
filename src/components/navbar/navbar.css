@@ -123,10 +123,10 @@
 /*Menu side goes here*/
 
 .menu, .menu-active {
-    width: 80vw;
+    width: 100vw;
     min-height: 100vh !important;
     position: fixed;
-    left: -80vw;
+    left: -100vw;
     top: 0px;
     display: flex;
     flex-direction: column;
@@ -141,10 +141,10 @@
 
 
 .menu-active {
-    left: 0;
+    left: 0vw;
     transition: 0.6s ease-in;
     position: fixed !important;
-    z-index: 8000;
+    z-index: 9000;
 }
 
 .menu-active #NavLink {
