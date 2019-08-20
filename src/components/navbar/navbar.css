@@ -123,10 +123,10 @@
 /*Menu side goes here*/
 
 .menu, .menu-active {
-    width: 370px;
+    width: 80vw;
     min-height: 100vh !important;
     position: fixed;
-    left: -375px;
+    left: -80vw;
     top: 0px;
     display: flex;
     flex-direction: column;
@@ -134,14 +134,17 @@
     justify-content: flex-start;
     background:rgba(20,20,20,0.99);
     transition: 0.6s ease-in;
-    z-index: 9999 !important;
+    z-index: 8000 !important;
     opacity: 1;
+    overflow-y: visible !important; 
 }
 
 
 .menu-active {
     left: 0;
     transition: 0.6s ease-in;
+    position: fixed !important;
+    z-index: 8000;
 }
 
 .menu-active #NavLink {
