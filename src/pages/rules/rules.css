@@ -89,3 +89,15 @@
     align-items: center;
 
 }
+
+@media (max-width: 768px) {
+
+    #paralax-1, #paralax-2 {
+        background-attachment: initial !important;
+        height: 200px;
+    }
+    
+    #paralax-2 {
+        background-position: 0px 0px;
+    }
+}

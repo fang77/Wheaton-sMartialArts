@@ -169,3 +169,20 @@
     background: url(../../components/assets/ft-6.jpg) no-repeat center;
     background-size: cover;
 }
+
+
+@media (max-width: 768px) {
+    .class-paralax-1, .class-paralax-2, .class-paralax-3, .class-paralax-4 {
+        background-attachment: initial !important;
+        height: 200px;
+    }
+
+    .class-paralax-3 {
+        background-position: 0px 30% !important;
+    }
+
+    .class-paralax-4 {
+        background-position: 0px -40px !important;
+    }
+
+}

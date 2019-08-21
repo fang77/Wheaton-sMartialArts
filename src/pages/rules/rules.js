@@ -75,7 +75,7 @@ export default class Rules extends Component {
                 </div>
                 </Fade>
 
-                <div id='paralax-2'><h1>CHILDREN'S HOME RULES</h1></div>
+                <div id='paralax-2'><h1>HOME RULES</h1></div>
                 <Fade top delay={500}>
                 <div className="children">
                     <ul>

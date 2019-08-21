@@ -12,7 +12,7 @@ class Pay extends Component {
             <section className="classes-container">
 
                     <div className="class-paralax-1">
-                        <h1>MUAY THAI & KICK BOXING</h1>s
+                        <h1>MUAY THAI & KICK BOXING</h1>
                     </div>
 
                     <Fade top delay={500}>
