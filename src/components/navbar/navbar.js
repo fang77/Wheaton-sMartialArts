@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './navbar.css';
-import {Route, NavLink, Switch} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 class Nav extends Component {
 
@@ -41,22 +41,22 @@ class Nav extends Component {
                     {/*Exit*/}
                     <i class="fa fa-times" aria-hidden="true" onClick={ () => this.setState({side: false})}></i>
                     
-                    <NavLink id='NavLink' to='/About'>ABOUT</NavLink>
+                    <NavLink id='NavLink' to='/About' onClick={ () => this.setState({side: false})}>ABOUT</NavLink>
                     <div className="menu-line"></div>
 
-                    <NavLink id='NavLink' to='/Classes'>CLASSES</NavLink>
+                    <NavLink id='NavLink' to='/Classes' onClick={ () => this.setState({side: false})}>CLASSES</NavLink>
                     <div className="menu-line"></div>
                     
-                    <NavLink id='NavLink' to='/Payment'>PAYMENT</NavLink>
+                    <NavLink id='NavLink' to='/Payment' onClick={ () => this.setState({side: false})}>PAYMENT</NavLink>
                     <div className="menu-line"></div>
                     
-                    <NavLink id='NavLink' to='/Rules'>RULES</NavLink>
+                    <NavLink id='NavLink' to='/Rules' onClick={ () => this.setState({side: false})}>RULES</NavLink>
                     <div className="menu-line"></div>
 
-                    <NavLink id='NavLink' to='/Register'>REGISTRATION</NavLink>
+                    <NavLink id='NavLink' to='/Register' onClick={ () => this.setState({side: false})}>REGISTRATION</NavLink>
                     <div className="menu-line"></div>
 
-                    <NavLink id='NavLink' to='/Events'>EVENTS</NavLink>
+                    <NavLink id='NavLink' to='/Events' onClick={ () => this.setState({side: false})}>EVENTS</NavLink>
                     <div className="menu-line"></div>
 
                 </div>

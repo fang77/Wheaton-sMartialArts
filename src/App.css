@@ -12,6 +12,7 @@ body {
   overflow: auto;
   float: bottom;
   font-family: 'Montserrat', sans-serif;
+  z-index: 1 !important
 }
 
 h1, h2, p {
