@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a03ff8d0.chunk.css",
+    "main.css": "/static/css/main.f856fa8e.chunk.css",
     "main.js": "/static/js/main.7ea95fee.chunk.js",
     "main.js.map": "/static/js/main.7ea95fee.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.fe7303d9.chunk.js": "/static/js/2.fe7303d9.chunk.js",
     "static/js/2.fe7303d9.chunk.js.map": "/static/js/2.fe7303d9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.75efd6e2fd05e18e68239bd6303a50d6.js": "/precache-manifest.75efd6e2fd05e18e68239bd6303a50d6.js",
+    "precache-manifest.95d0168d00666b3aeb2261c269be80ce.js": "/precache-manifest.95d0168d00666b3aeb2261c269be80ce.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a03ff8d0.chunk.css.map": "/static/css/main.a03ff8d0.chunk.css.map",
+    "static/css/main.f856fa8e.chunk.css.map": "/static/css/main.f856fa8e.chunk.css.map",
     "static/media/badass.jpg": "/static/media/badass.c464f94a.jpg",
     "static/media/classes.css": "/static/media/rules1.e2df9432.jpg",
     "static/media/pricing.css": "/static/media/visa.288a37d2.png",
