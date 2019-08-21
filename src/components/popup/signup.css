@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     background: rgba(26,26,26,0.95);
-    z-index: 100;
+    z-index: 10000;
 }
 
 .popup-closed {
@@ -17,54 +17,69 @@
 }
 
 
-.popup-container h1 {
+.yes h1 {
     font-size: 36px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
-    color: white !important;
+    color: black !important;
     font-weight: 450;
     margin-bottom: 0.2em;
-    width: 60%;
+    width: 60% !important;
 }
 
-.popup-container p {
+.yes p {
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
-    color: white !important;
+    color: black !important;
     font-weight: 600;
+    padding: 0 !important;
     margin-bottom: 3em;
+
 }
 
-.popup-container input {
-    border: 1px soild white;
+.yes input {
+    border: 1px solid black !important;
     background: transparent;
-    width: 330px;
-    height: 30px;
+    width: 370px;
+    height: 40px;
 }
 
-.popup-container button {
+.yes button {
     width: 200px;
     height: 50px;
     background-color: black;
     color: white;
     border: none;
     margin-top: 2em;
+    margin-bottom: 7em;
 }
 .x {
-    display: flex;
+    display: flex !important;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 340px;
+    width: 100%;
     height: auto;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
+    margin-top: 2em;
 }
 
 .x i {
-    color: white;
+    color: black;
+    margin-right: 1.5em;
     font-size: 32px;
 }
 
+
+.yes {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    background: white;
+    height: 500px !important;
+    width: 350px !important;
+}
 @media (max-width: 430px) {
 
     .popup-container p {
@@ -79,4 +94,15 @@
         
     }
 
+    .yes input {
+        width: 250px !important;
+    }
+
+}
+
+@media (min-width: 678px) {
+    .yes {
+        width: 500px !important;
+        height: 700px !important;
+    }
 }
