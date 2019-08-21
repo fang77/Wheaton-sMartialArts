@@ -4,7 +4,6 @@ import Overlay from '../overlay/overlay';
 import './banner-slide.css';
 
 class slide extends Component {
-
     render() {
         return(
             <div className="front-gallery">

@@ -178,3 +178,21 @@
     margin-bottom: 4em;
     overflow: hidden !important;
 }
+
+@media(max-width: 768px) {
+
+    .paralax-1, .paralax-2, .paralax-3 {
+        background-position: center !important;
+        background-attachment: initial;
+    }
+
+
+    .paralax-1 h1 {
+        margin-top: 2.5em;
+        color: black !important;
+    }
+
+    .margin-format {
+        margin-top: 2em !important;
+    }
+}
