@@ -11,28 +11,6 @@ class Pay extends Component {
         return(
             <section className="classes-container">
 
-                    <div className="class-paralax-1">
-                        <h1>MUAY THAI & KICK BOXING</h1>
-                    </div>
-
-                    <Fade top delay={500}>
-                    <p>
-                        Learn about the tradition and unique fighting style of Muay Thai or learn the
-                        art of modern kick boxing. Your instructor, Master Wheaton, has spent years learning
-                        these arts and have applied them in MMA matches and will give you the quality of
-                        instruction you deserve.
-                    </p>
-
-                    <div className="sample-pic">
-                        <div className="mkb-pic1"></div>
-                        <div className="mkb-pic2"></div>
-                        <div className="mkb-pic3"></div>
-                        <div className="mkb-pic4"></div>
-                    </div>
-                    </Fade>
-                    
-                    {/* ------------------------------ */}
-
                     <div className="class-paralax-2">
                         <h1>TAEKWONDO</h1>
                     </div>
@@ -94,6 +72,29 @@ class Pay extends Component {
                         </button>
                     </div>
                     </Fade>
+
+                    <div className="class-paralax-1">
+                        <h1>MUAY THAI & KICK BOXING</h1>
+                    </div>
+                    
+                    {/* ------------------------------ */}
+
+                    <Fade top delay={500}>
+                    <p>
+                        Learn about the tradition and unique fighting style of Muay Thai or learn the
+                        art of modern kick boxing. Your instructor, Master Wheaton, has spent years learning
+                        these arts and have applied them in MMA matches and will give you the quality of
+                        instruction you deserve.
+                    </p>
+
+                    <div className="sample-pic">
+                        <div className="mkb-pic1"></div>
+                        <div className="mkb-pic2"></div>
+                        <div className="mkb-pic3"></div>
+                        <div className="mkb-pic4"></div>
+                    </div>
+                    </Fade>
+                    
             </section>
         );
     }

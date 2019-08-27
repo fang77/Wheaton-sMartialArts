@@ -40,7 +40,7 @@ class Carousel extends Component {
         return(
             <section className="social-container">
                 <div className="follow">
-                    <h2>@WHEATONSMARTIALARTS</h2>
+                    <h2>@WMAACADEMY9</h2>
                     <h1>FOLLOW MMA</h1>
                 </div>
 
@@ -62,8 +62,8 @@ class Carousel extends Component {
 
 
                 <div className="follow">
-                    <button><a href='https://www.instagram.com/tkd206/' target="_blank" rel="noopener noreferrer">FOLLOW US ON INSTAGRAM</a></button>
-                    <h2>@WHEATONSMARTIALARTS</h2>
+                    <button><a href='https://www.instagram.com/wmaacademy9/' target="_blank" rel="noopener noreferrer">FOLLOW US ON INSTAGRAM</a></button>
+                    <h2>@WMAACADEMY9</h2>
                     <h1>SOCIAL MEDIA</h1>
                 </div>
 

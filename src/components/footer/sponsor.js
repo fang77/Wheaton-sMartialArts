@@ -16,8 +16,9 @@ class Foot extends Component {
 
                     <div className="bottom-panel">
                         <h2>HOURS</h2>
-                        <p>M W F        4PM - 9PM</p>
-                        <p>WEEKENDS    9AM - 12PM</p>
+                        <p>M W F : 4PM - 9PM</p>
+                        <p>T TH : 4PM - 6:30PM</p>
+                        <p>SAT : 9AM - 12PM</p>
                     </div>
 
                     <div className="bottom-panel">
@@ -41,7 +42,7 @@ class Foot extends Component {
                         <a href='https://www.facebook.com/wheatonsmartialartsacademy/'  target="_blank" rel="noopener noreferrer">
                            Facebook 
                         </a>
-                        <a href='https://www.instagram.com/tkd206/' target="_blank" rel="noopener noreferrer">
+                        <a href='https://www.instagram.com/wmaacademy9/' target="_blank" rel="noopener noreferrer">
                            Instagram 
                         </a>
                         <a href='https://www.yelp.com/biz/wheatons-martial-arts-academy-renton?osq=wheatons+martial+arts+academy' target="_blank" rel="noopener noreferrer">Yelp</a>

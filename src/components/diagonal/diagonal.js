@@ -27,7 +27,7 @@ class Diag extends Component {
                     </li>
 
                     <li>
-                        <a href='https://www.instagram.com/tkd206/' target="_blank" rel="noopener noreferrer">
+                        <a href='https://www.instagram.com/wmaacademy9/' target="_blank" rel="noopener noreferrer">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                     </li>
