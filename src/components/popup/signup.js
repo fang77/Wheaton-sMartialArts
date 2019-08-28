@@ -33,6 +33,7 @@ export default class Popup extends Component {
 
             axios({ method: 'POST',
             url: 'https://us3.api.mailchimp.com/3.0/lists/4d4eb89697/members',
+            mode: 'no-cors',
             crossdomain: true,
             add_headers: 
             { 'cache-control': 'no-cache',
