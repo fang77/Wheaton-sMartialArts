@@ -38,6 +38,7 @@ export default class Popup extends Component {
             { 'cache-control': 'no-cache',
             'X-Requested-With': 'XMLHttpRequest',
               Connection: 'keep-alive',
+              'Access-Control-Allow-Origin': 'http://www.wheatonsmartialarts.com/',
               'Content-Length': '69',
               'Accept-Encoding': 'gzip, deflate',
               Cookie: '_mcid=1.e1bf4e5382802f8e4d5c8d275be90528; _AVESTA_ENVIRONMENT=prod',
