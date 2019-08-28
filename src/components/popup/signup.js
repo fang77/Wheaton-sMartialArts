@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './signup.css';
-import axios from 'axios';
 
 export default class Popup extends Component {
     constructor(props) {
@@ -31,35 +30,24 @@ export default class Popup extends Component {
     send(email) {
         if(email !== '') {
 
-            axios({ method: 'POST',
-            mode: 'no-cors',
-            url: 'https://us3.api.mailchimp.com/3.0/lists/4d4eb89697/members',
-            crossdomain: true,
-            add_headers: 
-            { 'cache-control': 'no-cache',
-            'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
-            'Access-Control-Allow-Origin': 'https://wheatonsmartialarts.com',
-            'X-Requested-With': 'XMLHttpRequest',
-              Connection: 'keep-alive',
-              'Content-Length': '69',
-              'Accept-Encoding': 'gzip, deflate',
-              Cookie: '_mcid=1.e1bf4e5382802f8e4d5c8d275be90528; _AVESTA_ENVIRONMENT=prod',
-              Host: 'https://us3.api.mailchimp.com',
-              'Postman-Token': '8b1761fc-624f-4747-8aa7-2c400dc399cd,8828c4e7-0365-45b1-b735-1352031c3759',
-              'Cache-Control': 'no-cache',
-              Accept: '*/*',
-              Origin: 'https://www.wheatonsmartialarts.com',
-              'User-Agent': 'PostmanRuntime/7.15.2',
-              Authorization: 'Basic d21hOTk6Yzk0ZTY3MTMxYWZiMzQ0ZjBmMGM0NTg3ODU0OTdmYWEtdXMz',
-              'Content-Type': 'application/json' },
-    
-            body: { email_address: {email}, status: 'subscribed' },
-            json: true 
-            }).then(function response() {
-                console.log("success");
-            }).catch(function(error){
-                console.log("bad");
-            });
+            fetch('https://us3.api.mailchimp.com/3.0/lists/4d4eb89697/members',{ 
+                mode: 'no-cors',
+                method: 'POST',
+                headers: {
+                    'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
+                    'Access-Control-Allow-Origin': 'https://wheatonsmartialarts.com',
+                    'X-Requested-With': 'XMLHttpRequest',
+                    'Accept': '*application/json',
+                    'Content-Type': 'application/json' 
+                },
+            
+                body: JSON.stringify({ email_address: {email}, status: 'subscribed' 
+                }),
+                }).then(function response() {
+                    console.log("success");
+                }).catch(function(error){
+                    console.log("bad");
+                });
         }
     }
 
