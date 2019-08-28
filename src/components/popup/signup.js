@@ -34,11 +34,12 @@ export default class Popup extends Component {
             axios({ method: 'POST',
             url: 'https://us3.api.mailchimp.com/3.0/lists/4d4eb89697/members',
             crossdomain: true,
+            'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
+            'Access-Control-Allow-Origin': '*',
             add_headers: 
             { 'cache-control': 'no-cache',
             'X-Requested-With': 'XMLHttpRequest',
               Connection: 'keep-alive',
-              'Access-Control-Allow-Origin': 'http://www.wheatonsmartialarts.com/',
               'Content-Length': '69',
               'Accept-Encoding': 'gzip, deflate',
               Cookie: '_mcid=1.e1bf4e5382802f8e4d5c8d275be90528; _AVESTA_ENVIRONMENT=prod',
