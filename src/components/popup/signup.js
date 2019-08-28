@@ -34,9 +34,6 @@ export default class Popup extends Component {
                 mode: 'no-cors',
                 method: 'POST',
                 headers: {
-                    'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
-                    'Access-Control-Allow-Origin': 'https://wheatonsmartialarts.com',
-                    'X-Requested-With': 'XMLHttpRequest',
                     'Accept': '*application/json',
                     'Content-Type': 'application/json' 
                 },
