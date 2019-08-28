@@ -47,7 +47,7 @@ export default class Popup extends Component {
               'Postman-Token': '8b1761fc-624f-4747-8aa7-2c400dc399cd,8828c4e7-0365-45b1-b735-1352031c3759',
               'Cache-Control': 'no-cache',
               Accept: '*/*',
-              Origin: '*',
+              Origin: 'https://www.wheatonsmartialarts.com',
               'User-Agent': 'PostmanRuntime/7.15.2',
               Authorization: 'Basic d21hOTk6Yzk0ZTY3MTMxYWZiMzQ0ZjBmMGM0NTg3ODU0OTdmYWEtdXMz',
               'Content-Type': 'application/json' },
